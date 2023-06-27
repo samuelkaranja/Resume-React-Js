@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutImg from '../../assets/about.jpg';
-import CV from "../../assets/John-Cv.pdf";
+import CV from "../../assets/Samuel.pdf";
 import Info from './Info.js';
 import './about.css';
 
@@ -20,7 +20,7 @@ const About = () => {
 						Frontend developer, I create web pages with UI / UX user interface, I have years of experience and many clients are happy with the projects carried out.
 					</p>
 
-					<a download="" href="{CV}" className="button button--flex">
+					<a download="" href={CV} className="button button--flex">
 					Download CV
 					<svg
 		                class="button__icon"
