@@ -1,30 +1,30 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
 import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
+import tictactoe from "../../assets/tictactoe.png";
+import books from "../../assets/books.jpg";
+import ecommerce from "../../assets/ecommerce.jpg";
 
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
+    image: tictactoe,
     url: "https://samuel-tic-tac-toe.netlify.app/",
     title: "Tic-Tac-Toe",
     category: "web",
   },
   {
     id: 2,
-    image: Work2,
+    image: ecommerce,
     url: "https://sams-ecommerce-website.netlify.app/",
     title: "E-Commerce",
-    category: "app",
+    category: "web",
   },
   {
     id: 3,
-    image: Work3,
+    image: books,
     url: "https://samuelbestsellers.netlify.app/",
     title: "Book Sales",
-    category: "design",
+    category: "web",
   },
   {
     id: 4,
