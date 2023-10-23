@@ -1,8 +1,8 @@
-import Work4 from "../../assets/work4.jpg";
 import Work5 from "../../assets/work5.jpg";
 import tictactoe from "../../assets/tictactoe.png";
 import books from "../../assets/books.jpg";
 import ecommerce from "../../assets/ecommerce.jpg";
+import recipe from "../../assets/recipe.jpg";
 
 export const projectsData = [
   {
@@ -28,9 +28,10 @@ export const projectsData = [
   },
   {
     id: 4,
-    image: Work4,
-    title: "App movil",
-    category: "app",
+    image: recipe,
+    url: "https://sams-recipe-app.netlify.app/",
+    title: "Recipe",
+    category: "web",
   },
   {
     id: 5,
