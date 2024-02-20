@@ -4,6 +4,8 @@ import books from "../../assets/books.jpg";
 import ecommerce from "../../assets/ecommerce.jpg";
 import recipe from "../../assets/recipe.jpg";
 import ball from "../../assets/ball.jpg";
+import blog from "../../assets/blog.jpg";
+import tips from "../../assets/tips.jpg";
 
 export const projectsData = [
   {
@@ -15,27 +17,41 @@ export const projectsData = [
   },
   {
     id: 2,
+    image: tips,
+    url: "https://suretips.biz/",
+    title: "Football Tips",
+    category: "web",
+  },
+  {
+    id: 3,
+    image: blog,
+    url: "https://penned.netlify.app/",
+    title: "Penned",
+    category: "web",
+  },
+  {
+    id: 4,
     image: tictactoe,
     url: "https://samuel-tic-tac-toe.netlify.app/",
     title: "Tic-Tac-Toe",
     category: "web",
   },
   {
-    id: 3,
+    id: 5,
     image: ecommerce,
     url: "https://sams-ecommerce-website.netlify.app/",
     title: "E-Commerce",
     category: "web",
   },
   {
-    id: 4,
+    id: 6,
     image: books,
     url: "https://samuelbestsellers.netlify.app/",
     title: "Book Sales",
     category: "web",
   },
   {
-    id: 5,
+    id: 7,
     image: recipe,
     url: "https://sams-recipe-app.netlify.app/",
     title: "Recipe",
