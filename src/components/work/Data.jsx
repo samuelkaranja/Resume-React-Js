@@ -1,5 +1,4 @@
 import tictactoe from "../../assets/tictactoe.png";
-import books from "../../assets/books.jpg";
 import ecommerce from "../../assets/ecommerce.jpg";
 import recipe from "../../assets/recipe.jpg";
 import blog from "../../assets/blog.jpg";
@@ -39,13 +38,6 @@ export const projectsData = [
     image: tictactoe,
     url: "https://samuel-tic-tac-toe.netlify.app/",
     title: "Tic-Tac-Toe",
-    category: "web",
-  },
-  {
-    id: 6,
-    image: books,
-    url: "https://samuelbestsellers.netlify.app/",
-    title: "Book Sales",
     category: "web",
   },
 ];
