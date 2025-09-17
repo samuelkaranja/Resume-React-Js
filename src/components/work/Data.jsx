@@ -1,3 +1,4 @@
+import personal from "../../assets/personal.jpg";
 import tictactoe from "../../assets/tictactoe.png";
 import ecommerce from "../../assets/ecommerce.jpg";
 //import recipe from "../../assets/recipe.jpg";
@@ -6,6 +7,13 @@ import notes from "../../assets/notes.jpg";
 import quiz from "../../assets/quiz.jpg";
 
 export const projectsData = [
+  {
+    id: 1,
+    image: personal,
+    url: "https://codedebugged.netlify.app/",
+    title: "Personal Blog",
+    category: "web",
+  },
   {
     id: 1,
     image: quiz,
