@@ -1,10 +1,11 @@
 import personal from "../../assets/personal.jpg";
-import tictactoe from "../../assets/tictactoe.png";
-import ecommerce from "../../assets/ecommerce.jpg";
+//import tictactoe from "../../assets/tictactoe.png";
+//import ecommerce from "../../assets/ecommerce.jpg";
 //import recipe from "../../assets/recipe.jpg";
-import blog from "../../assets/blog.jpg";
+//import blog from "../../assets/blog.jpg";
 import notes from "../../assets/notes.jpg";
 import quiz from "../../assets/quiz.jpg";
+import photo from "../../assets/photo.jpg";
 
 export const projectsData = [
   {
@@ -15,26 +16,33 @@ export const projectsData = [
     category: "web",
   },
   {
-    id: 1,
+    id: 2,
+    image: photo,
+    url: "https://pichaview.netlify.app/",
+    title: "PichaView",
+    category: "web",
+  },
+  {
+    id: 3,
     image: quiz,
     url: "https://samsmindsprint.netlify.app/",
     title: "Quiz App",
     category: "web",
   },
   {
-    id: 2,
+    id: 4,
     image: notes,
     url: "https://my-notevault.netlify.app/",
     title: "Notes Vault",
     category: "web",
   },
-  {
-    id: 3,
-    image: blog,
-    url: "https://penned.netlify.app/",
-    title: "Penned",
-    category: "web",
-  },
+  // {
+  //   id: 3,
+  //   image: blog,
+  //   url: "https://penned.netlify.app/",
+  //   title: "Penned",
+  //   category: "web",
+  // },
   // {
   //   id: 4,
   //   image: recipe,
@@ -42,20 +50,20 @@ export const projectsData = [
   //   title: "Recipe",
   //   category: "web",
   // },
-  {
-    id: 5,
-    image: ecommerce,
-    url: "https://sams-ecommerce-website.netlify.app/",
-    title: "E-Commerce",
-    category: "web",
-  },
-  {
-    id: 6,
-    image: tictactoe,
-    url: "https://samuel-tic-tac-toe.netlify.app/",
-    title: "Tic-Tac-Toe",
-    category: "web",
-  },
+  // {
+  //   id: 5,
+  //   image: ecommerce,
+  //   url: "https://sams-ecommerce-website.netlify.app/",
+  //   title: "E-Commerce",
+  //   category: "web",
+  // },
+  // {
+  //   id: 6,
+  //   image: tictactoe,
+  //   url: "https://samuel-tic-tac-toe.netlify.app/",
+  //   title: "Tic-Tac-Toe",
+  //   category: "web",
+  // },
 ];
 
 export const projectsNav = [
