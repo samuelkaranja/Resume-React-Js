@@ -78,7 +78,7 @@ const Header = () => {
 
             <li className="nav__item">
               <a
-                href="https://codedebugged.netlify.app/"
+                href="https://sam-debugged.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className={
