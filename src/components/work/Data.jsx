@@ -16,7 +16,7 @@ export const projectsData = [
   {
     id: 2,
     image: personal,
-    url: "https://codedebugged.netlify.app/",
+    url: "https://sam-debugged.netlify.app/",
     title: "Personal Blog",
     category: "web",
   },
